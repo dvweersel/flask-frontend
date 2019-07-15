@@ -4,7 +4,7 @@ $(document).ready(function(){
 
 		var text = $("textarea").val();
 
-		$.get("http://localhost:5555/ping",
+		$.get("http://localhost:5555/",
 			function(data){
 				console.log(data)
 
